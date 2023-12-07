@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Project updated")
-            .padding()
+        HStack {
+            Circle()
+            Rectangle()
+            Circle()
+        }
     }
 }
 
